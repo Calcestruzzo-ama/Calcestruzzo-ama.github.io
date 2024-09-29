@@ -6,7 +6,9 @@
         <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
     </head>
     <body>
-        <a-scene mindar-image="imageTargetSrc: ./targets.mind; showStats: true;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-scene mindar-image="imageTargetSrc: ./targets.mind; showStats: true;" color-space="sRGB"
+        renderer="colorManagement: true, physicallyCorrectLights"
+        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
             <a-assets>
               <img id="1" src="layers/1.png" />
             </a-assets>
@@ -17,7 +19,7 @@
       
             <a-entity mindar-image-target="targetIndex: 0">
               <a-plane src="#1" position="0 0 0" height="0" width="1" rotation="0 0 0"></a-plane>
-              
+
             </a-entity>
           </a-scene>
     </body>
