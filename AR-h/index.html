@@ -6,9 +6,16 @@
         <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
     </head>
     <body>
-        <a-scene mindar-image="imageTargetSrc: ./target_old.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-scene mindar-image="imageTargetSrc: /target_old.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
             <a-assets>
               <img id="card1" src="layers/1.png" />
+              <img id="card2" src="layers/2.png" />
+              <img id="card3" src="layers/3.png" />
+              <img id="card4" src="layers/4.png" />
+              <img id="card5" src="layers/5.png" />
+              <img id="card6" src="layers/6.png" />
+              <img id="card7" src="layers/7.png" />
+              <img id="card8" src="layers/8.png" />
             </a-assets>
       
       
@@ -17,7 +24,13 @@
       
             <a-entity mindar-image-target="targetIndex: 0">
               <a-image src="#card1" position="0 0 0" height="0.5" width="1" rotation="0 0 0"></a-image>
-
+              <a-image src="#card2" position="0 0 0" height="1.0" width="1" rotation="0 0 0"></a-image>
+              <a-image src="#card3" position="0 0 0" height="1.5" width="1" rotation="0 0 0"></a-image>
+              <a-image src="#card4" position="0 0 0" height="2.0" width="1" rotation="0 0 0"></a-image>
+              <a-image src="#card5" position="0 0 0" height="2.5" width="1" rotation="0 0 0"></a-image>
+              <a-image src="#card6" position="0 0 0" height="3.0" width="1" rotation="0 0 0"></a-image>
+              <a-image src="#card7" position="0 0 0" height="3.5" width="1" rotation="0 0 0"></a-image>
+              <a-image src="#card8" position="0 0 0" height="4.0" width="1" rotation="0 0 0"></a-image>
             </a-entity>
           </a-scene>
     </body>
